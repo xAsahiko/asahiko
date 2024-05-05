@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+
+*{
+    background-color: #ececec;
+    margin: 0%;
+}
+
+.logo{
+    width: 25%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0%;
+}
+
+.star{
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    
+}
+
+a:hover{
+    color: brown;
+}
+
+.social-li{
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+marquee{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+hr{
+    border: 1px solid;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.stuff-li{
+    list-style: none;
+    font-family: "Martian Mono";
+    font-weight: 600;
+}
+
+.commissions{
+    color: brown;
+}
+
+.profile{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.section h1, h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.section h1{
+    font-size: 40;
+}
+.section p{
+    font-family: "Martian Mono";
+    font-size: 15px;
+}
+
+.column{
+    margin: 30px;
+    padding: 0%;
+}
+
+aside ul{
+    font-family: "Martian Mono";
+    font-size: 10px;
+    text-align:start;
+}
+
+aside li{
+    list-style: square;
+}
